@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = bookstore
+build_property.ProjectDir = C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain.Shared\
