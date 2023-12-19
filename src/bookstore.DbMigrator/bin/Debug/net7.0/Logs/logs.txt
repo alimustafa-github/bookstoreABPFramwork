@@ -1,0 +1,326 @@
+2023-12-13 14:26:57.534 +02:00 [INF] Creating initial migration...
+2023-12-13 14:27:50.469 +02:00 [INF] Creating initial migration...
+2023-12-13 14:49:02.748 +02:00 [INF] Creating initial migration...
+2023-12-14 09:48:46.829 +02:00 [INF] Started database migrations...
+2023-12-14 09:48:46.839 +02:00 [INF] Migrating schema for host database...
+2023-12-14 09:48:50.201 +02:00 [INF] Executing host database seed...
+2023-12-14 09:48:59.049 +02:00 [INF] Successfully completed host database migrations.
+2023-12-14 09:49:02.246 +02:00 [INF] Successfully completed all database migrations.
+2023-12-14 09:49:02.246 +02:00 [INF] You can safely end this process...
+2023-12-14 15:59:36.069 +02:00 [INF] Started database migrations...
+2023-12-14 15:59:36.097 +02:00 [INF] Migrating schema for host database...
+2023-12-14 15:59:46.531 +02:00 [INF] Executing host database seed...
+2023-12-14 16:00:26.422 +02:00 [ERR] Failed executing DbCommand (33,915ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [AppBooks] AS [a]
+2023-12-14 16:00:26.569 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'bookstore.EntityFrameworkCore.bookstoreDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:91b3f8e5-f151-474a-a731-a8f3a087e5c6
+Error Number:-2,State:0,Class:11
+Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:91b3f8e5-f151-474a-a731-a8f3a087e5c6
+Error Number:-2,State:0,Class:11
+2023-12-15 11:07:04.080 +02:00 [INF] Started database migrations...
+2023-12-15 11:07:04.230 +02:00 [INF] Migrating schema for host database...
+2023-12-15 11:07:17.803 +02:00 [INF] Executing host database seed...
+2023-12-15 11:07:35.331 +02:00 [INF] Successfully completed host database migrations.
+2023-12-15 11:07:43.942 +02:00 [INF] Successfully completed all database migrations.
+2023-12-15 11:07:43.942 +02:00 [INF] You can safely end this process...
+2023-12-15 12:15:11.616 +02:00 [INF] Started database migrations...
+2023-12-15 12:15:11.758 +02:00 [INF] Migrating schema for host database...
+2023-12-15 12:16:04.639 +02:00 [INF] Executing host database seed...
+2023-12-15 12:16:52.805 +02:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (Size = 40), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = Boolean), @p5='?' (DbType = Boolean), @p6='?' (DbType = Boolean), @p7='?' (Size = 256), @p8='?' (Size = 256), @p9='?' (DbType = Guid)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+INSERT INTO [AbpRoles] ([Id], [ConcurrencyStamp], [EntityVersion], [ExtraProperties], [IsDefault], [IsPublic], [IsStatic], [Name], [NormalizedName], [TenantId])
+VALUES (@p0, @p1, @p2, @p3, @p4, @p5, @p6, @p7, @p8, @p9);
+2023-12-15 12:16:53.146 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'bookstore.EntityFrameworkCore.bookstoreDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e580c3d2-7a59-4dd6-b0cb-e32ddbacb77f
+Error Number:-2,State:0,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:e580c3d2-7a59-4dd6-b0cb-e32ddbacb77f
+Error Number:-2,State:0,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Volo.Abp.EntityFrameworkCore.AbpDbContext`1.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Volo.Abp.Domain.Repositories.EntityFrameworkCore.EfCoreRepository`2.InsertAsync(TEntity entity, Boolean autoSave, CancellationToken cancellationToken)
+   at Castle.DynamicProxy.AsyncInterceptorBase.ProceedAsynchronous[TResult](IInvocation invocation, IInvocationProceedInfo proceedInfo)
+   at System.Runtime.ExceptionServices.ExceptionDispatchInfo.Throw()
+2023-12-15 12:23:31.300 +02:00 [INF] Started database migrations...
+2023-12-15 12:23:31.309 +02:00 [INF] Migrating schema for host database...
+2023-12-15 12:23:38.206 +02:00 [INF] Executing host database seed...
+2023-12-15 12:24:29.824 +02:00 [ERR] Failed executing DbCommand (0ms) [Parameters=[@p0='?' (DbType = Guid), @p1='?' (DbType = Guid), @p2='?' (DbType = Guid), @p33='?' (DbType = Guid), @p3='?' (DbType = Int32), @p4='?' (Size = 40), @p34='?' (Size = 40), @p5='?' (DbType = DateTime2), @p6='?' (DbType = Guid), @p7='?' (DbType = Guid), @p8='?' (DbType = DateTime2), @p9='?' (Size = 256), @p10='?' (DbType = Boolean), @p11='?' (DbType = Int32), @p12='?' (Size = 4000), @p13='?' (DbType = Boolean), @p14='?' (DbType = Boolean), @p15='?' (DbType = Boolean), @p16='?' (DbType = DateTime2), @p17='?' (DbType = Guid), @p18='?' (DbType = DateTimeOffset), @p19='?' (DbType = Boolean), @p20='?' (DbType = DateTimeOffset), @p21='?' (Size = 64), @p22='?' (Size = 256), @p23='?' (Size = 256), @p24='?' (Size = 256), @p25='?' (Size = 16), @p26='?' (DbType = Boolean), @p27='?' (Size = 256), @p28='?' (DbType = Boolean), @p29='?' (Size = 64), @p30='?' (DbType = Guid), @p31='?' (DbType = Boolean), @p32='?' (Size = 256)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AbpUserRoles] ([RoleId], [UserId], [TenantId])
+VALUES (@p0, @p1, @p2);
+UPDATE [AbpUsers] SET [AccessFailedCount] = @p3, [ConcurrencyStamp] = @p4, [CreationTime] = @p5, [CreatorId] = @p6, [DeleterId] = @p7, [DeletionTime] = @p8, [Email] = @p9, [EmailConfirmed] = @p10, [EntityVersion] = @p11, [ExtraProperties] = @p12, [IsActive] = @p13, [IsDeleted] = @p14, [IsExternal] = @p15, [LastModificationTime] = @p16, [LastModifierId] = @p17, [LastPasswordChangeTime] = @p18, [LockoutEnabled] = @p19, [LockoutEnd] = @p20, [Name] = @p21, [NormalizedEmail] = @p22, [NormalizedUserName] = @p23, [PasswordHash] = @p24, [PhoneNumber] = @p25, [PhoneNumberConfirmed] = @p26, [SecurityStamp] = @p27, [ShouldChangePasswordOnNextLogin] = @p28, [Surname] = @p29, [TenantId] = @p30, [TwoFactorEnabled] = @p31, [UserName] = @p32
+OUTPUT 1
+WHERE [Id] = @p33 AND [ConcurrencyStamp] = @p34;
+2023-12-15 12:24:30.001 +02:00 [ERR] An exception occurred in the database while saving changes for context type 'bookstore.EntityFrameworkCore.bookstoreDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ac4cfc29-dd98-414c-ba38-b2062f39d879
+Error Number:-2,State:0,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Execution Timeout Expired.  The timeout period elapsed prior to completion of the operation or the server is not responding.
+ ---> System.ComponentModel.Win32Exception (258): The wait operation timed out.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:ac4cfc29-dd98-414c-ba38-b2062f39d879
+Error Number:-2,State:0,Class:11
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Update.Internal.SqlServerModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Volo.Abp.EntityFrameworkCore.AbpDbContext`1.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+2023-12-17 08:42:19.215 +02:00 [INF] Started database migrations...
+2023-12-17 08:42:19.267 +02:00 [INF] Migrating schema for host database...
+2023-12-17 08:42:27.331 +02:00 [INF] Executing host database seed...
+2023-12-17 08:42:39.700 +02:00 [INF] Successfully completed host database migrations.
+2023-12-17 08:42:45.631 +02:00 [INF] Successfully completed all database migrations.
+2023-12-17 08:42:45.631 +02:00 [INF] You can safely end this process...
+2023-12-18 12:56:26.060 +02:00 [INF] Started database migrations...
+2023-12-18 12:56:26.436 +02:00 [INF] Migrating schema for host database...
+2023-12-18 12:57:02.646 +02:00 [INF] Executing host database seed...
+2023-12-18 12:57:16.019 +02:00 [ERR] Failed executing DbCommand (242ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [AppBooks] AS [a]
+WHERE @__ef_filter__p_0 = CAST(1 AS bit) OR ([a].[TenantId] IS NULL)
+2023-12-18 12:57:16.724 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'bookstore.EntityFrameworkCore.bookstoreDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'TenantId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:ac3ab862-ba9c-4618-a7ac-5910df2999c2
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'TenantId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:ac3ab862-ba9c-4618-a7ac-5910df2999c2
+Error Number:207,State:1,Class:16
+2023-12-18 13:04:42.874 +02:00 [INF] Started database migrations...
+2023-12-18 13:04:42.996 +02:00 [INF] Migrating schema for host database...
+2023-12-18 13:06:00.378 +02:00 [INF] Executing host database seed...
+2023-12-18 13:06:28.014 +02:00 [ERR] Failed executing DbCommand (59ms) [Parameters=[@__ef_filter__p_0='?' (DbType = Boolean)], CommandType='"Text"', CommandTimeout='30']
+SELECT COUNT_BIG(*)
+FROM [AppBooks] AS [a]
+WHERE @__ef_filter__p_0 = CAST(1 AS bit) OR ([a].[TenantId] IS NULL)
+2023-12-18 13:06:28.264 +02:00 [ERR] An exception occurred while iterating over the results of a query for context type 'bookstore.EntityFrameworkCore.bookstoreDbContext'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'TenantId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f4fc3b13-ddf7-4307-9906-472c90a22b03
+Error Number:207,State:1,Class:16
+Microsoft.Data.SqlClient.SqlException (0x80131904): Invalid column name 'TenantId'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.InitializeReaderAsync(AsyncEnumerator enumerator, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Query.Internal.SplitQueryingEnumerable`1.AsyncEnumerator.MoveNextAsync()
+ClientConnectionId:f4fc3b13-ddf7-4307-9906-472c90a22b03
+Error Number:207,State:1,Class:16
+2023-12-18 13:11:45.301 +02:00 [INF] Started database migrations...
+2023-12-18 13:11:45.428 +02:00 [INF] Migrating schema for host database...
+2023-12-18 13:12:35.387 +02:00 [INF] Executing host database seed...
+2023-12-18 13:12:50.969 +02:00 [INF] Successfully completed host database migrations.
+2023-12-18 13:13:21.688 +02:00 [INF] Successfully completed all database migrations.
+2023-12-18 13:13:21.688 +02:00 [INF] You can safely end this process...
+2023-12-18 15:01:24.547 +02:00 [INF] Started database migrations...
+2023-12-18 15:01:24.557 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:01:30.048 +02:00 [INF] Executing host database seed...
+2023-12-18 15:01:44.243 +02:00 [INF] Successfully completed host database migrations.
+2023-12-18 15:01:47.348 +02:00 [INF] Successfully completed all database migrations.
+2023-12-18 15:01:47.348 +02:00 [INF] You can safely end this process...
+2023-12-18 15:10:52.217 +02:00 [INF] Started database migrations...
+2023-12-18 15:10:52.226 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:10:56.945 +02:00 [INF] Executing host database seed...
+2023-12-18 15:11:02.849 +02:00 [INF] Successfully completed host database migrations.
+2023-12-18 15:11:05.367 +02:00 [INF] Successfully completed all database migrations.
+2023-12-18 15:11:05.367 +02:00 [INF] You can safely end this process...
+2023-12-18 15:15:43.052 +02:00 [INF] Started database migrations...
+2023-12-18 15:15:43.065 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:15:45.759 +02:00 [INF] Executing host database seed...
+2023-12-18 15:15:51.174 +02:00 [INF] Successfully completed host database migrations.
+2023-12-18 15:15:52.263 +02:00 [INF] Successfully completed all database migrations.
+2023-12-18 15:15:52.263 +02:00 [INF] You can safely end this process...
+2023-12-18 15:36:06.534 +02:00 [INF] Started database migrations...
+2023-12-18 15:36:06.541 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:36:08.485 +02:00 [INF] Executing host database seed...
+2023-12-18 15:38:02.367 +02:00 [INF] Started database migrations...
+2023-12-18 15:38:02.377 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:38:04.180 +02:00 [INF] Executing host database seed...
+2023-12-18 15:39:28.343 +02:00 [INF] Started database migrations...
+2023-12-18 15:39:28.352 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:39:30.394 +02:00 [INF] Executing host database seed...
+2023-12-18 15:40:35.650 +02:00 [INF] Started database migrations...
+2023-12-18 15:40:35.667 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:40:37.517 +02:00 [INF] Executing host database seed...
+2023-12-18 15:40:58.565 +02:00 [INF] Started database migrations...
+2023-12-18 15:40:58.575 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:41:00.361 +02:00 [INF] Executing host database seed...
+2023-12-18 15:42:22.487 +02:00 [INF] Started database migrations...
+2023-12-18 15:42:22.495 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:42:24.348 +02:00 [INF] Executing host database seed...
+2023-12-18 15:42:30.017 +02:00 [INF] Successfully completed host database migrations.
+2023-12-18 15:42:31.174 +02:00 [INF] Executing Emenu tenant database seed...
+2023-12-18 15:43:51.652 +02:00 [INF] Started database migrations...
+2023-12-18 15:43:51.661 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:43:53.772 +02:00 [INF] Executing host database seed...
+2023-12-18 15:44:48.761 +02:00 [INF] Started database migrations...
+2023-12-18 15:44:48.772 +02:00 [INF] Migrating schema for host database...
+2023-12-18 15:44:50.544 +02:00 [INF] Executing host database seed...
+2023-12-18 15:45:12.327 +02:00 [INF] Successfully completed host database migrations.
+2023-12-18 15:45:13.396 +02:00 [INF] Executing Emenu tenant database seed...
+2023-12-18 16:10:51.494 +02:00 [INF] Started database migrations...
+2023-12-18 16:10:51.511 +02:00 [INF] Migrating schema for host database...
+2023-12-18 16:10:54.905 +02:00 [INF] Executing host database seed...
+2023-12-18 16:18:55.588 +02:00 [INF] Started database migrations...
+2023-12-18 16:18:55.597 +02:00 [INF] Migrating schema for host database...
+2023-12-18 16:18:58.102 +02:00 [INF] Executing host database seed...
+2023-12-18 16:21:31.168 +02:00 [INF] Started database migrations...
+2023-12-18 16:21:31.176 +02:00 [INF] Migrating schema for host database...
+2023-12-18 16:21:33.650 +02:00 [INF] Executing host database seed...
+2023-12-18 16:21:39.914 +02:00 [INF] Successfully completed host database migrations.
+2023-12-18 16:21:46.581 +02:00 [INF] Executing Emenu tenant database seed...
