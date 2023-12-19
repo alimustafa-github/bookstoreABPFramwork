@@ -1,0 +1,15 @@
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\bin\Debug\net7.0\bookstore.Domain.deps.json
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\bin\Debug\net7.0\bookstore.Domain.dll
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\bin\Debug\net7.0\bookstore.Domain.pdb
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\bin\Debug\net7.0\bookstore.Domain.Shared.dll
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\bin\Debug\net7.0\bookstore.Domain.Shared.pdb
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\bookstore.Domain.csproj.AssemblyReference.cache
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\bookstore.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\bookstore.Domain.AssemblyInfoInputs.cache
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\bookstore.Domain.AssemblyInfo.cs
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\bookstore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\bookstore.Domain.csproj.CopyComplete
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\bookstore.Domain.dll
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\refint\bookstore.Domain.dll
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\bookstore.Domain.pdb
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Domain\obj\Debug\net7.0\ref\bookstore.Domain.dll

@@ -1,0 +1,13 @@
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\bin\Debug\netstandard2.1\bookstore.Application.Contracts.deps.json
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\bin\Debug\netstandard2.1\bookstore.Application.Contracts.dll
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\bin\Debug\netstandard2.1\bookstore.Application.Contracts.pdb
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\bin\Debug\netstandard2.1\bookstore.Domain.Shared.dll
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\bin\Debug\netstandard2.1\bookstore.Domain.Shared.pdb
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\obj\Debug\netstandard2.1\bookstore.Application.Contracts.csproj.AssemblyReference.cache
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\obj\Debug\netstandard2.1\bookstore.Application.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\obj\Debug\netstandard2.1\bookstore.Application.Contracts.AssemblyInfoInputs.cache
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\obj\Debug\netstandard2.1\bookstore.Application.Contracts.AssemblyInfo.cs
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\obj\Debug\netstandard2.1\bookstore.Application.Contracts.csproj.CoreCompileInputs.cache
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\obj\Debug\netstandard2.1\bookstore.Application.Contracts.csproj.CopyComplete
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\obj\Debug\netstandard2.1\bookstore.Application.Contracts.dll
+C:\Users\Ali Mustafa\source\repos\bookstore\aspnet-core\src\bookstore.Application.Contracts\obj\Debug\netstandard2.1\bookstore.Application.Contracts.pdb
